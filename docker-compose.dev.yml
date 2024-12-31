@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+   qsland_dev:
+      image: registry.dxmb.vn/tund/booking_online_qsland_web/dev:TAG_COMMIT
+      ports:
+         - 3000:3000
+      deploy:
+         replicas: 1
+         resources:
+            limits:
+               cpus: '4'
+               memory: 2048MB
+            reservations:
+               cpus: '0.25'
+               memory: 50MB
+         restart_policy:
+            condition: on-failure

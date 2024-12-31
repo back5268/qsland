@@ -1,0 +1,52 @@
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(179, 177, 177);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(150, 150, 150);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(135, 135, 135);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgb(120, 120, 120);
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+table .p-column-header-content {
+  justify-content: center;
+}
+
+.rowTable .p-datatable .p-datatable-tbody > tr > td {
+  padding: 0 !important;
+}
+
+.rowTable a {
+  color: #343a40;
+}
+
+.p-dropdown-panel {
+  max-width: 300px; /* Đặt kích thước tối đa cho tùy chọn */
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  overflow: auto;
+  white-space: normal;
+  line-height: 1.6rem
+};
+
+
